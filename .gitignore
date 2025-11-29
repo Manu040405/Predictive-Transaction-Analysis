@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment & secrets
+.env
+*.env
+
+# Data / Models / Databases (keep these out of git)
+*.csv
+*.pkl
+*.joblib
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Frontend (future-proof)
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Project-specific secrets (do not commit real keys)
+templates/firebase-config.js
